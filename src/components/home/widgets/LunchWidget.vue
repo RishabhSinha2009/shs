@@ -95,7 +95,9 @@ const emptySub = computed(() => (servesLunch.value
 .station {
   flex: 1 0 auto;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   padding: 6px 0;
   min-width: 0;
 }
@@ -114,16 +116,11 @@ const emptySub = computed(() => (servesLunch.value
   font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
-  /* long menus wrap to two lines, then cut off */
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
 }
 
 .station-name {
-  margin-right: 5px;
+  display: block;
+  margin-bottom: 2px;
   color: var(--accent);
   font-size: 11px;
   font-weight: 800;
@@ -131,11 +128,19 @@ const emptySub = computed(() => (servesLunch.value
   text-transform: uppercase;
 }
 
+.station-items {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
 .stations.is-medium .station {
   padding: 3px 0;
 }
 
-.stations.is-medium .station-text {
+.stations.is-medium .station-items {
   -webkit-line-clamp: 1;
   line-clamp: 1;
   font-size: 13.5px;

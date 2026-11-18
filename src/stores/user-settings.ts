@@ -5,7 +5,7 @@ export default defineStore("grades", () => {
   const grade = ref('None');
   const showPWCSchedule = ref(true);
   // where the countdown sits on a landscape iPad or laptop: a panel on the left, or across the top
-  const heroPosition = ref<'left' | 'top'>('left');
+  const heroPosition = ref<'left' | 'top'>('top');
   // the redesigned home page, or the old one for anyone who prefers it
   const homeStyle = ref<'new' | 'classic'>('new');
 

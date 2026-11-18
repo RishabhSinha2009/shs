@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import TimedCard from './TimedCard.vue'
 
 const meta = {
-  title: 'Cards/TimedCard',
+  title: 'Cards (Old UI)/TimedCard',
   component: TimedCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

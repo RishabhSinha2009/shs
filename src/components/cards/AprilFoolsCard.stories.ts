@@ -4,7 +4,7 @@ import { cardWidthDecorator, mockDateSetup } from './storybook_utils'
 import AprilFoolsCard from './AprilFoolsCard.vue'
 
 const meta = {
-  title: 'Cards/AprilFoolsCard',
+  title: 'Cards (Old UI)/AprilFoolsCard',
   component: AprilFoolsCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import LunchCard from './LunchCard.vue'
 
 const meta = {
-  title: 'Cards/LunchCard',
+  title: 'Cards (Old UI)/LunchCard',
   component: LunchCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

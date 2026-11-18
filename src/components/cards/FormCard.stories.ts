@@ -5,7 +5,7 @@ import FormCard from './FormCard.vue'
 import FormCardElement from './FormCardElement.vue'
 
 const meta = {
-  title: 'Cards/FormCard',
+  title: 'Cards (Old UI)/FormCard',
   component: FormCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

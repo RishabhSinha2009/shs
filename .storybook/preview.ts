@@ -3,6 +3,7 @@ import { setup } from "@storybook/vue3";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createPinia } from "pinia";
 import { createMemoryHistory, createRouter } from "vue-router";
+import "@/styles/home.css";
 
 setup((app) => {
   app.component("font-awesome-icon", FontAwesomeIcon);
@@ -16,6 +17,12 @@ setup((app) => {
 
 const preview: Preview = {
   parameters: {
+    options: {
+      storySort: {
+        method: "alphabetical",
+        order: ["Home Widgets", "*", "Cards (Old UI)"],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,

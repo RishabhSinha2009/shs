@@ -4,7 +4,7 @@ import { cardWidthDecorator, mockDateSetup } from './storybook_utils'
 import ShsHacksCard from './ShsHacksCard.vue'
 
 const meta = {
-  title: 'Cards/ShsHacksCard',
+  title: 'Cards (Old UI)/ShsHacksCard',
   component: ShsHacksCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

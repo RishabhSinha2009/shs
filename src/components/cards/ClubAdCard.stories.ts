@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import ClubAdCard from './ClubAdCard.vue'
 
 const meta = {
-  title: 'Cards/ClubAdCard',
+  title: 'Cards (Old UI)/ClubAdCard',
   component: ClubAdCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import WeatherCard from './WeatherCard.vue'
 
 const meta = {
-  title: 'Cards/WeatherCard',
+  title: 'Cards (Old UI)/WeatherCard',
   component: WeatherCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

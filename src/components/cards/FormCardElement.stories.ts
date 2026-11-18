@@ -3,7 +3,7 @@ import { within, expect } from 'storybook/test'
 import FormCardElement from './FormCardElement.vue'
 
 const meta = {
-  title: 'Cards/FormCardElement',
+  title: 'Cards (Old UI)/FormCardElement',
   component: FormCardElement,
   tags: ['autodocs'],
   argTypes: {

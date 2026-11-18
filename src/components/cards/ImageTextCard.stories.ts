@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import ImageTextCard from './ImageTextCard.vue'
 
 const meta = {
-  title: 'Cards/ImageTextCard',
+  title: 'Cards (Old UI)/ImageTextCard',
   component: ImageTextCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

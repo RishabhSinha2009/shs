@@ -4,7 +4,7 @@ import { cardWidthDecorator, mockDateSetup } from './storybook_utils'
 import PwcCard from './PwcCard.vue'
 
 const meta = {
-  title: 'Cards/PwcCard',
+  title: 'Cards (Old UI)/PwcCard',
   component: PwcCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

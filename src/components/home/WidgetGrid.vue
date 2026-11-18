@@ -114,7 +114,7 @@
             :class="{ on: userSettings.heroPosition === 'left' }"
             :aria-pressed="userSettings.heroPosition === 'left'"
             title="Countdown on the left"
-            @click="userSettings.setHeroPosition('left')"
+            @click="userSettings.setHeroPosition('left'); scrollCardContainerToTop();"
           >
             <PanelLeft :size="16" :stroke-width="2.4" aria-hidden="true" />
           </button>
@@ -124,7 +124,7 @@
             :class="{ on: userSettings.heroPosition === 'top' }"
             :aria-pressed="userSettings.heroPosition === 'top'"
             title="Countdown on top"
-            @click="userSettings.setHeroPosition('top')"
+            @click="userSettings.setHeroPosition('top'); scrollCardContainerToTop();"
           >
             <PanelTop :size="16" :stroke-width="2.4" aria-hidden="true" />
           </button>
@@ -217,6 +217,10 @@ const onSideChange = () => { sideCapable.value = !!sideQuery?.matches; };
 
 const root = useTemplateRef<HTMLDivElement>('root');
 const wrap = useTemplateRef<HTMLDivElement>('wrap');
+
+function scrollCardContainerToTop(): void {
+  root.value?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
 
 /*
   Widgets are drawn for a 70px cell. On a bigger screen the cells are bigger,
@@ -412,6 +416,7 @@ function stopEditing(): void {
   galleryOpen.value = false;
   settingsFor.value = null;
   confirmReset.value = false;
+
   layout.save();
 }
 

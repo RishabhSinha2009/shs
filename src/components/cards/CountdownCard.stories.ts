@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import CountdownCard from './CountdownCard.vue'
 
 const meta = {
-  title: 'Cards/CountdownCard',
+  title: 'Cards (Old UI)/CountdownCard',
   component: CountdownCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

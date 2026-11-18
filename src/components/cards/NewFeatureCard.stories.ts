@@ -4,7 +4,7 @@ import { cardWidthDecorator, mockDateSetup } from './storybook_utils'
 import NewFeatureCard from './NewFeatureCard.vue'
 
 const meta = {
-  title: 'Cards/NewFeatureCard',
+  title: 'Cards (Old UI)/NewFeatureCard',
   component: NewFeatureCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

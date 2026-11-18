@@ -4,7 +4,7 @@ import { cardWidthDecorator } from './storybook_utils'
 import UpcomingEventsCard from './UpcomingEventsCard.vue'
 
 const meta = {
-  title: 'Cards/UpcomingEventsCard',
+  title: 'Cards (Old UI)/UpcomingEventsCard',
   component: UpcomingEventsCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

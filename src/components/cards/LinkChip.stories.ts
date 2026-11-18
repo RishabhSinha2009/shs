@@ -4,7 +4,7 @@ import { within, expect } from 'storybook/test'
 import LinkChip from './LinkChip.vue'
 
 const meta = {
-  title: 'Cards/LinkChip',
+  title: 'Cards (Old UI)/LinkChip',
   component: LinkChip,
   tags: ['autodocs'],
   argTypes: {

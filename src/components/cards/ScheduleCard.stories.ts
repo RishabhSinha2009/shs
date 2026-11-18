@@ -10,7 +10,7 @@ const mockSchedule = {
 }
 
 const meta = {
-  title: 'Cards/ScheduleCard',
+  title: 'Cards (Old UI)/ScheduleCard',
   component: ScheduleCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],

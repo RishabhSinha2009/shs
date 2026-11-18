@@ -4,7 +4,7 @@ import { cardWidthDecorator, mockDateSetup } from './storybook_utils'
 import EndOfYearCard from './EndOfYearCard.vue'
 
 const meta = {
-  title: 'Cards/EndOfYearCard',
+  title: 'Cards (Old UI)/EndOfYearCard',
   component: EndOfYearCard,
   tags: ['autodocs'],
   decorators: [cardWidthDecorator],
